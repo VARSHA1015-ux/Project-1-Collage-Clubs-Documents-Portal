@@ -11,8 +11,8 @@
 #### Conduct workshops, seminars, quizzes, and competitions.
 #### Encourage teamwork and continues learning.
 ## Main Activities <b>
-#### 🔐 Cybersecurity awareness programs.
-#### 💻Ethical hacking workshops.
+#### 🔐 Cybersecurity awareness programs.<🔐>
+#### 💻Ethical hacking workshops.< 💻>
 #### 🏆CTF competitions
 #### 🧠Cybersecurity quizzes.
 #### 🎤Guest lectures and seminars.
