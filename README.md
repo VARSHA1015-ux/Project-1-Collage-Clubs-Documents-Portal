@@ -1,6 +1,6 @@
 # CYBER AWARENESS CLUB <b>
 ## About the club <b>
-#### Student community focused on cybersecurity awareness and practical skills.
+#### :.Student community focused on cybersecurity awareness and practical skills.
 #### Covers online safety, ethical hacking network security, and data protection.
 ## Vision <b>
 #### Build skilled and responsible students who can prevent and respond to cyber threats.
