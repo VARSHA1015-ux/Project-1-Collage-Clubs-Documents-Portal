@@ -1,4 +1,6 @@
-# CYBER AWARENESS CLUB <b>
+# 🛡️CYBER AWARENESS CLUB <b>
+
+## Welcome to the * Cyber awarness
 ## About the club <b>
 #### 💠Student community focused on cybersecurity awareness and practical skills.
 #### 💠Covers online safety, ethical hacking network security, and data protection.
