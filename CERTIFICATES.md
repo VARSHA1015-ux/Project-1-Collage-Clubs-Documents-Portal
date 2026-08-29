@@ -1,4 +1,4 @@
-# Certificate Verification Log: Academic Year 2026
+# 📜Certificate Verification Log: Academic Year 2026
 
 This document maintains a central record of all certificates issued by the club for verification and audit purposes.
 
