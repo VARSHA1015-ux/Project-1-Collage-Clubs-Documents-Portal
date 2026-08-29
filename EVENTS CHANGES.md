@@ -3,7 +3,7 @@
 **Event Date:** August 15, 2026  
 **Venue:** Main Auditorium & Computer Labs  
 **Organized By:** Technical Club  
-**Event Lead:** Harshitha (@harshitha)  
+**Event Lead:** Varsha(@Varsha)  
 **Total Participants:** 150+ Students  
 
 ---
