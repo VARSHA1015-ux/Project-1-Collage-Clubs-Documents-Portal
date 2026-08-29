@@ -1,4 +1,4 @@
-# Event Report: Annual Tech Symposium 2026
+# 📎Event Report: Annual Tech Symposium 2026
 
 **Event Date:** August 15, 2026  
 **Venue:** Main Auditorium & Computer Labs  
