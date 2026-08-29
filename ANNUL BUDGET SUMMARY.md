@@ -1,4 +1,4 @@
-# 📆Annual Budget Summary: Academic Year 2025–2026
+# 📆Budget Summary: Academic Year 2025–2026
 
 **Prepared By:** Treasurer  
 **Approved By:** Faculty Advisor & President  
