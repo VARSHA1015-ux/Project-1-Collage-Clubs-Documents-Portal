@@ -1,4 +1,4 @@
-# Meeting Minutes: Executive Committee Sync
+# 🧑‍🤝‍🧑Meeting Minutes: Executive Committee Sync
 
 **Date:** August 28, 2026  
 **Time:** 04:00 PM – 05:00 PM  
