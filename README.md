@@ -28,5 +28,5 @@
 #### 💠Cybersecurity knowledge
 #### 💠Practical skills.
 #### 💠Critical thinking
-#### Team work.
-#### Responsible digital habits
+#### 💠Team work.
+#### 💠Responsible digital habits
