@@ -1,4 +1,4 @@
-# Annual Report: 2025–2026
+# 💥Annual Report: 2025–2026
 
 **Organization:** College Technical Club  
 **Period Covered:** July 2025 – June 2026  
