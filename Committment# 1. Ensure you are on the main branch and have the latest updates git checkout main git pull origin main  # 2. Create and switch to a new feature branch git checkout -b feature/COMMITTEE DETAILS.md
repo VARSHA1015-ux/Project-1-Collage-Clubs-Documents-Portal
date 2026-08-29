@@ -1,4 +1,4 @@
-# Committee Details: Academic Year 2025–2026
+# 🤝Committee Details: Academic Year 2025–2026
 
 **Faculty Advisor:** Dr. Jane Doe (jane.doe@college.edu)  
 **Tenure Period:** July 2025 – June 2026  
