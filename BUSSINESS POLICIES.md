@@ -1,4 +1,4 @@
-# Club Operational Policies & Governance Framework
+# 📋Club Operational Policies & Governance Framework
 
 This document outlines the operational policies, code of conduct, and administrative guidelines governing all club activities, repository management, and member interactions.
 
