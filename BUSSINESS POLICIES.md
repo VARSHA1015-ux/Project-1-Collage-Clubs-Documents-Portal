@@ -1,4 +1,4 @@
-# 📋Club Operational Policies & Governance Framework
+# 📋Bussiness policies
 
 This document outlines the operational policies, code of conduct, and administrative guidelines governing all club activities, repository management, and member interactions.
 
