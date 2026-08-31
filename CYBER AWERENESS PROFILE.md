@@ -18,6 +18,9 @@ The club provides students with opportunities to learn about:
 - 🔒 Digital Privacy
 - 🚨 Cybercrime Awareness
 
+  
+** Roadmap**(https://miro.medium.com/v2/resize:fit:1358/1*z8T93TGxKuJgflWM2OPBoQ.png)
+
 ---
 
 ## 🎯 Vision
