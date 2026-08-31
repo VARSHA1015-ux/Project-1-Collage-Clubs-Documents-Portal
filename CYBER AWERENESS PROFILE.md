@@ -1,4 +1,4 @@
-# 🔐 CYBER SECURITY CLUB
+# 🔐 CYBER SECURITY PROFILE <b>
 
 > **Learn • Secure • Protect**
 
