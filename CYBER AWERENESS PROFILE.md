@@ -159,6 +159,9 @@ Students are encouraged to contribute to:
 
 Everyone is welcome to **learn, share, collaborate, and grow together**.
 
+** People with us** (https://img.freepik.com/premium-photo/cyber-security-people_693425-31944.jpg)
+
+
 ---
 
 ## 🔮 Future Plans
