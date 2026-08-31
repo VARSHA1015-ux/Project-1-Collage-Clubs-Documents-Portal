@@ -50,6 +50,8 @@ The club provides students with opportunities to learn about:
 - 🌐 Network Security Demonstrations
 - 🛡️ Cyber Safety Campaigns
 - 🚀 Cybersecurity Projects and Challenges
+
+  
 ** Hacking**(https://tse2.mm.bing.net/th/id/OIP.H9-SFVQokCBCAytNw5w8DQHaEc?r=0&w=537&h=322&rs=1&pid=ImgDetMain&o=7&rm=3)
 ---
 
