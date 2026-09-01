@@ -1,7 +1,7 @@
 # 💥Annual Report: 2025–2026
 
 **Organization:** College Technical Club  
-**Period Covered:** July 2025 – June 2026  
+**Period Covered:** august 2025 – septamember 2026  
 **Submitted By:** Executive Board  
 **Published Date:** August 2026  
 
