@@ -53,8 +53,9 @@ The club provides students with opportunities to learn about:
 - 🛡️ Cyber Safety Campaigns
 - 🚀 Cybersecurity Projects and Challenges
 
-  
-** Hacking**(https://tse2.mm.bing.net/th/id/OIP.H9-SFVQokCBCAytNw5w8DQHaEc?r=0&w=537&h=322&rs=1&pid=ImgDetMain&o=7&rm=3)
+  <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/239185eb-eebe-4703-aa69-ca0f558a69bd" />
+
+
 ---
 
 ## 👥 Club Members
@@ -69,6 +70,10 @@ The club consists of students interested in:
 - 🛡️ Digital Safety
 
 Faculty members and cybersecurity professionals may also guide students through workshops and events.
+
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/0074754e-80eb-4da3-b2ef-202d50063db3" />
+
 
 ---
 
@@ -109,6 +114,9 @@ By participating in the **Cyber Security Club**, students can develop:
 - 🤝 Teamwork and communication
 - 🌐 Networking knowledge
 - 🛡️ Awareness of responsible digital practices
+
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/2671990f-ba8e-4e1e-8f2a-5f96a50c5ceb" />
 
 ---
 
