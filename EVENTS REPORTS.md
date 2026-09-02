@@ -6,6 +6,9 @@
 **Event Lead:** Varsha(@Varsha)  
 **Total Participants:** 150+ Students  
 
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/44a509d0-f317-42f0-9966-411391e2feb1" />
+
 ---
 
 ## Executive Summary
