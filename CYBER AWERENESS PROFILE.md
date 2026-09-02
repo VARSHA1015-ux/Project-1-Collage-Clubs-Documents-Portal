@@ -133,6 +133,9 @@ Joining the Cyber Security Club provides students with opportunities to:
 - Improve teamwork and problem-solving skills.
 - Stay updated with emerging cyber threats.
 
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/10d2b8ec-2bc8-40d9-a7c8-8741035f0e28" />
+
 ---
 
 ## 📂 Repository
