@@ -5,6 +5,9 @@
 **Submitted By:** Executive Board  
 **Published Date:** August 2026  
 
+
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/7a0537d2-d539-4611-a3da-00f8095bc7e0" />
+
 ---
 
 ## Executive Overview
