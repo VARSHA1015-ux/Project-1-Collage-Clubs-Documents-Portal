@@ -19,7 +19,9 @@ The club provides students with opportunities to learn about:
 - 🚨 Cybercrime Awareness
 
   
-** Roadmap**(https://miro.medium.com/v2/resize:fit:1358/1*z8T93TGxKuJgflWM2OPBoQ.png)
+** Roadmap**
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/355e912c-c4b9-4be9-9240-9d99da768c8a" />
 
 ---
 
