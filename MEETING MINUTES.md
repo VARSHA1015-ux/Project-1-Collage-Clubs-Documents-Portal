@@ -27,6 +27,9 @@
 * **Workshop Logistics:** Dev Patel confirmed venue booking for the upcoming lab sessions.
 * **Budget Allocations:** Priya presented the draft budget; total estimated expense is approved at ₹15,000.
 
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/43f33972-2ab0-4809-b341-b3c521a04753" />
+
 ---
 
 ### Action Items
