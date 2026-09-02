@@ -40,6 +40,9 @@ The club provides students with opportunities to learn about:
 - 💠 Introduce students to current cybersecurity trends and threats.
 - 💠 Encourage teamwork, problem-solving, and continuous learning.
 
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/647d3d70-d123-443b-8a1d-efd09fe4e9af" />
+
+
 ---
 
 ## 🛠️ Main Activities
