@@ -169,7 +169,8 @@ Students are encouraged to contribute to:
 
 Everyone is welcome to **learn, share, collaborate, and grow together**.
 
-** People with us** (https://img.freepik.com/premium-photo/cyber-security-people_693425-31944.jpg)
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/12c2079d-4bf4-4ae2-89bd-b46a794369c8" />
+
 
 
 ---
@@ -192,6 +193,8 @@ Everyone is welcome to **learn, share, collaborate, and grow together**.
 
 Cybersecurity is everyone's responsibility.  
 Let's build a **safer and more secure digital world together.** 🌐🔐
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/9de6731a-928b-4c99-b4a3-b1cddf9d9640" />
 
 ---
 
