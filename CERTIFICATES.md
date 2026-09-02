@@ -9,6 +9,11 @@ This document maintains a central record of all certificates issued by the club 
 * **Design Source Files:** SVG templates and assets stored in `certificates/templates/`
 * **Signatories:** Faculty Advisor, Club President, Event Lead
 
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/38654e6d-d4f6-45ff-9669-ec9de0502352" />
+
+
+
+
 ---
 
 ## 2. Issued Certificates Registry
