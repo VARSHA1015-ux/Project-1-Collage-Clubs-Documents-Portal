@@ -17,6 +17,12 @@
 #### 💠💻Ethical hacking workshops.
 #### 💠🏆CTF competitions
 #### 💠🧠Cybersecurity quizzes.
+
+
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/7715852a-1642-4feb-b55e-5fda3d8c9b4e" />
+
+
+
 #### 💠🎤Guest lectures and seminars.
 #### 💠🌐Network security domonstrations.
 #### 💠🛡️Cyber safety campaigns.
