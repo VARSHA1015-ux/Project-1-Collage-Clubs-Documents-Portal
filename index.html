@@ -400,14 +400,13 @@
             border-right: none;
         }
 
-        .stat strong {
-            display: block;
-            font-size: 38px;
+        .stat h2 {
             color: var(--cyan);
+            font-size: 38px;
             margin-bottom: 8px;
         }
 
-        .stat span {
+        .stat p {
             color: var(--muted);
             font-size: 13px;
         }
@@ -418,30 +417,233 @@
 
         .about-grid {
             display: grid;
-            grid-template-columns: .9fr 1.1fr;
+            grid-template-columns: 1fr 1fr;
             gap: 60px;
             align-items: center;
         }
 
-        .about-image {
-            width: 100%;
-            height: 420px;
-            object-fit: cover;
-            border-radius: 18px;
+        .image-card {
+            height: 430px;
+            border-radius: 20px;
+            overflow: hidden;
             border: 1px solid var(--border);
-            box-shadow: 0 0 40px rgba(0,234,255,.08);
+            position: relative;
         }
 
-        .about-content p {
+        .image-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: .7;
+            transition: .5s;
+        }
+
+        .image-card:hover img {
+            transform: scale(1.05);
+            opacity: .9;
+        }
+
+        .image-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 40%, rgba(5,5,16,.95));
+        }
+
+        .image-caption {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+        }
+
+        .image-caption h3 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .image-caption p {
+            color: var(--cyan);
+            font-size: 12px;
+        }
+
+        .mini-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .mini-box {
+            padding: 20px;
+            border: 1px solid var(--border);
+            background: rgba(255,255,255,.025);
+            border-radius: 12px;
+            transition: .3s;
+        }
+
+        .mini-box:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0,234,255,.35);
+        }
+
+        .mini-box strong {
+            display: block;
+            color: white;
+            margin-bottom: 6px;
+        }
+
+        .mini-box span {
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        /* =========================
+           VISION / MISSION
+        ========================= */
+
+        .vm-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-top: 45px;
+        }
+
+        .vm-card {
+            padding: 40px;
+            background: linear-gradient(145deg, rgba(0,234,255,.06), rgba(139,92,246,.05));
+            border: 1px solid var(--border);
+            border-radius: 16px;
+        }
+
+        .vm-card h3 {
+            color: var(--cyan);
+            margin-bottom: 15px;
+            font-size: 25px;
+        }
+
+        .vm-card p {
+            color: var(--muted);
+            line-height: 1.8;
+        }
+
+        /* =========================
+           VALUES
+        ========================= */
+
+        .value-grid,
+        .activity-grid,
+        .outcome-grid,
+        .skill-grid,
+        .leadership-grid {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 18px;
+            margin-top: 45px;
+        }
+
+        .value-card,
+        .activity-card,
+        .outcome-card,
+        .skill-card,
+        .leader-card {
+            padding: 28px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 15px;
+            transition: .3s;
+        }
+
+        .value-card:hover,
+        .activity-card:hover,
+        .outcome-card:hover,
+        .skill-card:hover,
+        .leader-card:hover {
+            transform: translateY(-7px);
+            border-color: rgba(0,234,255,.35);
+            box-shadow: 0 15px 40px rgba(0,0,0,.3);
+        }
+
+        .card-icon {
+            font-size: 30px;
             margin-bottom: 18px;
         }
 
-        .terminal-box {
-            margin-top: 25px;
-            padding: 25px;
-            background: #080b14;
+        .value-card h3,
+        .activity-card h3,
+        .outcome-card h3,
+        .skill-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .value-card p,
+        .activity-card p,
+        .outcome-card p,
+        .skill-card p,
+        .leader-card p {
+            color: var(--muted);
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        /* =========================
+           ACTIVITIES
+        ========================= */
+
+        .activity-card {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .activity-number {
+            position: absolute;
+            right: 18px;
+            top: 15px;
+            font-size: 40px;
+            color: rgba(255,255,255,.04);
+            font-weight: bold;
+        }
+
+        .small-btn {
+            margin-top: 18px;
+            border: 0;
+            background: none;
+            color: var(--cyan);
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* =========================
+           WHY JOIN
+        ========================= */
+
+        .join-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            margin-top: 45px;
+        }
+
+        .join-list {
+            list-style: none;
+        }
+
+        .join-list li {
+            padding: 18px 0;
+            border-bottom: 1px solid var(--border);
+            color: var(--muted);
+        }
+
+        .join-list li::before {
+            content: "✓";
+            color: var(--green);
+            font-weight: bold;
+            margin-right: 12px;
+        }
+
+        .terminal {
+            background: #02030a;
             border: 1px solid rgba(0,234,255,.2);
-            border-radius: 12px;
+            border-radius: 15px;
+            padding: 25px;
             font-family: monospace;
             box-shadow: 0 0 40px rgba(0,234,255,.05);
         }
@@ -451,209 +653,57 @@
             margin-bottom: 18px;
         }
 
-        .terminal-line {
-            color: #b9c4d8;
-            line-height: 1.8;
+        .terminal p {
+            color: #8290a8;
+            line-height: 2;
         }
 
-        .terminal-line span {
+        .terminal span {
             color: var(--cyan);
         }
 
         /* =========================
-           ACTIVITIES
-        ========================= */
-
-        .activity-grid {
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap: 20px;
-            margin-top: 45px;
-        }
-
-        .activity-card {
-            background: var(--card);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 28px;
-            transition: .3s;
-        }
-
-        .activity-card:hover {
-            transform: translateY(-8px);
-            border-color: rgba(0,234,255,.35);
-            box-shadow: 0 15px 40px rgba(0,234,255,.08);
-        }
-
-        .card-icon {
-            font-size: 32px;
-            margin-bottom: 18px;
-        }
-
-        .activity-card h3 {
-            margin-bottom: 12px;
-        }
-
-        .activity-card p {
-            color: var(--muted);
-            font-size: 14px;
-            line-height: 1.7;
-        }
-
-        .activity-card button {
-            margin-top: 20px;
-            background: transparent;
-            border: 1px solid rgba(0,234,255,.3);
-            color: var(--cyan);
-            padding: 10px 15px;
-            border-radius: 7px;
-            cursor: pointer;
-            font-size: 11px;
-            font-weight: 700;
-        }
-
-        .activity-card button:hover {
-            background: rgba(0,234,255,.08);
-        }
-
-        /* =========================
-           VALUES
-        ========================= */
-
-        .value-grid {
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap: 20px;
-            margin-top: 45px;
-        }
-
-        .value-card {
-            padding: 28px;
-            border: 1px solid var(--border);
-            background: rgba(255,255,255,.02);
-            border-radius: 15px;
-        }
-
-        .value-card h3 {
-            margin-bottom: 10px;
-        }
-
-        .value-card p {
-            color: var(--muted);
-            font-size: 13px;
-            line-height: 1.7;
-        }
-
-        /* =========================
-           OUTCOMES
+           EXPECTED OUTCOMES
         ========================= */
 
         .outcome-grid {
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            gap: 20px;
-            margin-top: 45px;
+            grid-template-columns: repeat(5,1fr);
         }
 
         .outcome-card {
-            padding: 30px;
-            border-left: 3px solid var(--cyan);
-            background: var(--card);
-            border-radius: 0 14px 14px 0;
+            text-align: center;
         }
 
-        .outcome-card h3 {
-            margin-bottom: 10px;
-        }
-
-        .outcome-card p {
-            color: var(--muted);
-            line-height: 1.7;
-            font-size: 14px;
-        }
-
-        /* =========================
-           EVENTS
-        ========================= */
-
-        .event-card {
-            margin-top: 45px;
-            display: grid;
-            grid-template-columns: .8fr 1.2fr;
-            border: 1px solid var(--border);
-            border-radius: 18px;
-            overflow: hidden;
-            background: var(--card);
-        }
-
-        .event-image {
-            width: 100%;
-            height: 100%;
-            min-height: 400px;
-            object-fit: cover;
-        }
-
-        .event-content {
-            padding: 50px;
-        }
-
-        .event-content h3 {
-            font-size: 40px;
-            margin-bottom: 18px;
-        }
-
-        .event-content p {
-            color: var(--muted);
-            line-height: 1.8;
-        }
-
-        .event-meta {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin-top: 25px;
-        }
-
-        .meta-item {
-            padding: 10px 14px;
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            color: #cdd5e5;
-            font-size: 12px;
+        .outcome-card .card-icon {
+            font-size: 25px;
         }
 
         /* =========================
            IMPACT
         ========================= */
 
-        .impact {
-            text-align: center;
-            background: linear-gradient(
-                180deg,
-                transparent,
-                rgba(0,234,255,.025),
-                transparent
-            );
+        .impact-box {
+            margin-top: 45px;
+            padding: 45px;
+            border: 1px solid rgba(0,234,255,.18);
+            background:
+                linear-gradient(120deg, rgba(0,234,255,.05), rgba(139,92,246,.04)),
+                #090c18;
+            border-radius: 20px;
         }
 
         .impact-numbers {
-            margin-top: 45px;
             display: grid;
             grid-template-columns: repeat(4,1fr);
             gap: 20px;
-        }
-
-        .impact-item {
-            padding: 30px;
-            border: 1px solid var(--border);
-            background: rgba(255,255,255,.02);
-            border-radius: 15px;
+            margin-top: 35px;
         }
 
         .impact-item strong {
             display: block;
-            font-size: 42px;
+            font-size: 30px;
             color: var(--cyan);
+            margin-bottom: 5px;
         }
 
         .impact-item span {
@@ -662,13 +712,64 @@
         }
 
         /* =========================
-           DOCUMENTS
+           EVENT
+        ========================= */
+
+        .event-card {
+            margin-top: 45px;
+            min-height: 430px;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid var(--border);
+            background-image:
+                linear-gradient(90deg, rgba(5,5,16,.96), rgba(5,5,16,.55)),
+                url("https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1400&q=85");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .event-content {
+            padding: 55px;
+            max-width: 750px;
+        }
+
+        .event-content h3 {
+            font-size: 42px;
+            margin: 12px 0 18px;
+        }
+
+        .event-content p {
+            color: #c2c9d8;
+            line-height: 1.8;
+        }
+
+        .event-stats {
+            display: flex;
+            gap: 35px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .event-stats strong {
+            color: var(--cyan);
+            display: block;
+            font-size: 28px;
+        }
+
+        .event-stats span {
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        /* =========================
+           DOCUMENT VAULT
         ========================= */
 
         .document-grid {
             display: grid;
             grid-template-columns: repeat(4,1fr);
-            gap: 20px;
+            gap: 18px;
             margin-top: 45px;
         }
 
@@ -681,31 +782,30 @@
         }
 
         .document-card:hover {
-            transform: translateY(-6px);
-            border-color: rgba(0,234,255,.3);
+            transform: translateY(-5px);
+            border-color: var(--cyan);
         }
 
-        .doc-icon {
+        .document-card .doc-icon {
             font-size: 28px;
             margin-bottom: 15px;
         }
 
         .document-card h3 {
-            margin-bottom: 10px;
+            font-size: 16px;
+            margin-bottom: 8px;
         }
 
         .document-card p {
             color: var(--muted);
-            font-size: 13px;
-            line-height: 1.6;
-            margin-bottom: 18px;
+            font-size: 12px;
+            margin-bottom: 15px;
         }
 
         .document-card a {
             color: var(--cyan);
-            font-size: 11px;
-            font-weight: 800;
-            letter-spacing: 1px;
+            font-size: 12px;
+            font-weight: bold;
         }
 
         /* =========================
@@ -713,134 +813,155 @@
         ========================= */
 
         .leadership-grid {
-            display: grid;
             grid-template-columns: repeat(4,1fr);
-            gap: 20px;
-            margin-top: 45px;
         }
 
         .leader-card {
             text-align: center;
-            padding: 30px 20px;
-            border: 1px solid var(--border);
-            background: var(--card);
-            border-radius: 15px;
         }
 
         .leader-avatar {
-            width: 75px;
-            height: 75px;
-            margin: 0 auto 18px;
+            width: 80px;
+            height: 80px;
+            margin: auto auto 18px;
+            border-radius: 50%;
             display: grid;
             place-items: center;
-            border: 1px solid rgba(0,234,255,.3);
-            border-radius: 50%;
             font-size: 30px;
+            border: 1px solid rgba(0,234,255,.35);
+            background: rgba(0,234,255,.05);
         }
 
         .leader-card h3 {
-            margin-bottom: 7px;
+            margin-bottom: 5px;
         }
 
         .leader-role {
-            color: var(--cyan);
-            font-size: 10px;
-            letter-spacing: 2px;
+            color: var(--cyan) !important;
+            font-size: 12px !important;
             margin-bottom: 12px;
-        }
-
-        .leader-card p {
-            color: var(--muted);
-            font-size: 13px;
         }
 
         /* =========================
            CONNECT
         ========================= */
 
+        .connect {
+            background: #070916;
+        }
+
         .connect-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 25px;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 18px;
             margin-top: 45px;
         }
 
-        .connect-card {
+        .contact-card {
             padding: 30px;
             border: 1px solid var(--border);
-            background: var(--card);
             border-radius: 15px;
-        }
-
-        .connect-card h3 {
-            margin-bottom: 12px;
-        }
-
-        .connect-card p {
-            color: var(--muted);
-            line-height: 1.8;
-            font-size: 14px;
-        }
-
-        .connect-card a {
-            display: inline-block;
-            margin-top: 18px;
-            color: var(--cyan);
-            font-size: 12px;
-            font-weight: bold;
-        }
-
-        /* =========================
-           CLOSING
-        ========================= */
-
-        .closing {
-            text-align: center;
-            padding-bottom: 120px;
-        }
-
-        .closing h2 {
-            font-size: clamp(32px, 5vw, 65px);
-            margin-bottom: 20px;
-        }
-
-        .closing p {
-            color: var(--muted);
-            max-width: 750px;
-            margin: auto;
-            line-height: 1.8;
-        }
-
-        .closing-grid {
-            margin-top: 60px;
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            gap: 20px;
-            text-align: left;
-        }
-
-        .closing-card {
-            padding: 28px;
-            border: 1px solid var(--border);
-            border-radius: 14px;
             background: rgba(255,255,255,.02);
         }
 
-        .closing-card h3 {
-            margin-bottom: 10px;
+        .contact-card .card-icon {
+            color: var(--cyan);
         }
 
-        .closing-card p {
+        .contact-card h3 {
+            margin-bottom: 8px;
+        }
+
+        .contact-card p,
+        .contact-card a {
+            color: var(--muted);
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .contact-card a:hover {
+            color: var(--cyan);
+        }
+
+        /* =========================
+           LEGAL
+        ========================= */
+
+        .legal-box {
+            margin-top: 30px;
+            padding: 22px;
+            border-left: 3px solid var(--green);
+            background: rgba(50,245,169,.04);
+            color: var(--muted);
+            line-height: 1.7;
             font-size: 13px;
         }
 
         /* =========================
-           FOOTER
+           FINAL SECTION
         ========================= */
 
-        footer {
-            padding: 60px 8% 25px;
-            background: #030308;
+        .final-section {
+            min-height: 80vh;
+            padding-top: 120px;
+            padding-bottom: 30px;
+            background:
+                radial-gradient(circle at 50% 20%, rgba(0,234,255,.1), transparent 35%),
+                #03040c;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .final-content {
+            text-align: center;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .final-content h2 {
+            font-size: clamp(42px, 7vw, 90px);
+            line-height: .95;
+            margin-bottom: 25px;
+        }
+
+        .final-content p {
+            color: var(--muted);
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        .final-buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .closing-grid {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 18px;
+            margin-top: 80px;
+        }
+
+        .closing-card {
+            padding: 30px;
+            text-align: left;
+            border: 1px solid var(--border);
+            background: rgba(255,255,255,.025);
+            border-radius: 15px;
+        }
+
+        .closing-card h3 {
+            color: white;
+            margin-bottom: 8px;
+        }
+
+        .closing-card p {
+            margin: 0;
+            font-size: 13px;
         }
 
         .quick-links {
@@ -1125,6 +1246,163 @@
                 flex-direction: column;
             }
         }
+    
+        /* =========================
+           PROFESSIONAL POLISH
+        ========================= */
+
+        ::selection {
+            background: rgba(0,234,255,.25);
+            color: #ffffff;
+        }
+
+        body {
+            background:
+                radial-gradient(circle at 15% 15%, rgba(0,234,255,.055), transparent 28%),
+                radial-gradient(circle at 85% 30%, rgba(139,92,246,.05), transparent 30%),
+                var(--dark);
+        }
+
+        .navbar {
+            box-shadow: 0 8px 35px rgba(0,0,0,.18);
+        }
+
+        .logo {
+            text-shadow: 0 0 18px rgba(0,234,255,.18);
+        }
+
+        .hero-content,
+        .about-content,
+        .event-content {
+            animation: contentReveal .8s ease both;
+        }
+
+        .hero-label {
+            box-shadow: inset 0 0 18px rgba(0,234,255,.035);
+        }
+
+        .activity-card,
+        .value-card,
+        .outcome-card,
+        .document-card,
+        .leader-card,
+        .connect-card,
+        .closing-card,
+        .impact-item,
+        .stat {
+            box-shadow: 0 10px 35px rgba(0,0,0,.16);
+            backdrop-filter: blur(8px);
+        }
+
+        .activity-card:hover,
+        .document-card:hover,
+        .leader-card:hover,
+        .connect-card:hover,
+        .value-card:hover {
+            box-shadow:
+                0 18px 45px rgba(0,0,0,.28),
+                0 0 28px rgba(0,234,255,.07);
+        }
+
+        .document-card a {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 9px 12px;
+            border: 1px solid rgba(0,234,255,.2);
+            border-radius: 7px;
+            background: rgba(0,234,255,.035);
+            transition: .3s;
+        }
+
+        .document-card a:hover {
+            background: rgba(0,234,255,.1);
+            border-color: rgba(0,234,255,.55);
+            transform: translateX(3px);
+        }
+
+        .btn {
+            box-shadow: 0 8px 25px rgba(0,0,0,.18);
+        }
+
+        .terminal-box {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .terminal-box::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            background: linear-gradient(
+                120deg,
+                transparent,
+                rgba(0,234,255,.035),
+                transparent
+            );
+            transform: translateX(-100%);
+            animation: terminalSweep 5s ease-in-out infinite;
+        }
+
+        .event-card {
+            box-shadow: 0 20px 60px rgba(0,0,0,.2);
+        }
+
+        .event-image {
+            transition: transform .6s ease;
+        }
+
+        .event-card:hover .event-image {
+            transform: scale(1.025);
+        }
+
+        .modal-box {
+            max-height: 88vh;
+            overflow-y: auto;
+        }
+
+        .modal-box::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .modal-box::-webkit-scrollbar-thumb {
+            background: rgba(0,234,255,.35);
+            border-radius: 20px;
+        }
+
+        @keyframes contentReveal {
+            from {
+                opacity: 0;
+                transform: translateY(18px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes terminalSweep {
+            0%, 55% {
+                transform: translateX(-100%);
+            }
+            75%, 100% {
+                transform: translateX(100%);
+            }
+        }
+
+        @media(max-width:700px) {
+            .hero-buttons .btn {
+                width: 100%;
+                text-align: center;
+            }
+
+            .document-card a {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
     </style>
 </head>
 
@@ -1189,7 +1467,6 @@
             <a href="#documents" class="btn btn-outline">
                 VIEW DOCUMENTS
             </a>
-
         </div>
 
     </div>
@@ -1201,7 +1478,6 @@
 
         <div class="shield-ring ring1"></div>
         <div class="shield-ring ring2"></div>
-
         <svg class="shield-svg"
              viewBox="0 0 300 350"
              xmlns="http://www.w3.org/2000/svg">
@@ -1972,7 +2248,7 @@
 
             <p>Annual activities and performance records.</p>
 
-            <a href="ANNUAL%20REPORTS.md" target="_blank">
+            <a href="ANNUAL_REPORTS.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -1987,7 +2263,7 @@
 
             <p>Club budget and financial information.</p>
 
-            <a href="BUDGET%20SUMMARY.md" target="_blank">
+            <a href="BUDGET_SUMMARY.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2002,7 +2278,7 @@
 
             <p>Policies and operational guidelines.</p>
 
-            <a href="BUSSINESS%20POLICIES.md" target="_blank">
+            <a href="BUSSINESS_POLICIES.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2017,7 +2293,7 @@
 
             <p>Certificate records and achievements.</p>
 
-            <a href="CERTIFICATES.md" target="_blank">
+            <a href="CERTIFICATES.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2032,7 +2308,7 @@
 
             <p>Reports of club events and activities.</p>
 
-            <a href="EVENTS%20REPORTS.md" target="_blank">
+            <a href="EVENTS_REPORTS.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2047,7 +2323,7 @@
 
             <p>Records of club meetings and discussions.</p>
 
-            <a href="MEETING%20MINUTES.md" target="_blank">
+            <a href="MEETING_MINUTES.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2062,7 +2338,7 @@
 
             <p>Official club information and details.</p>
 
-            <a href="CYBER%20AWARENESS%20CLUB.md" target="_blank">
+            <a href="CYBER_AWARENESS_CLUB.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2077,7 +2353,7 @@
 
             <p>Cyber Awareness Club profile.</p>
 
-            <a href="CYBER%20AWARENESS%20PROFILE.md" target="_blank">
+            <a href="CYBER_AWARENESS_PROFILE.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2092,7 +2368,7 @@
 
             <p>Workshop details and cybersecurity learning activities.</p>
 
-            <a href="CYBER_WORKSHOPS.md" target="_blank">
+            <a href="CYBER_WORKSHOPS.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2107,7 +2383,7 @@
 
             <p>Cyber awareness campaigns and digital safety activities.</p>
 
-            <a href="AWARENESS_CAMPAIGNS.md" target="_blank">
+            <a href="AWARENESS_CAMPAIGNS.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2122,7 +2398,7 @@
 
             <p>Student cybersecurity projects and technical work.</p>
 
-            <a href="STUDENT_PROJECTS.md" target="_blank">
+            <a href="STUDENT_PROJECTS.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2137,7 +2413,7 @@
 
             <p>Technical events, symposiums and related activities.</p>
 
-            <a href="TECHNICAL_EVENTS.md" target="_blank">
+            <a href="TECHNICAL_EVENTS.pdf" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2659,9 +2935,31 @@
 
     });
 
-</script>
+
+        const revealObserver = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = "1";
+                    entry.target.style.transform = "translateY(0)";
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12 });
+
+        document.querySelectorAll(
+            ".activity-card, .value-card, .outcome-card, .document-card, .leader-card, .connect-card, .closing-card"
+        ).forEach(function(card) {
+            card.style.opacity = "0";
+            card.style.transform = "translateY(18px)";
+            card.style.transition = "opacity .6s ease, transform .6s ease";
+
+            revealObserver.observe(card);
+        });
+
+    </script>
 
 </body>
+</html>
 
 
 
@@ -2669,5 +2967,15 @@
 
 
 
-              
-                  stroke-width="5"/>
+
+
+
+
+
+
+
+
+
+
+
+        
