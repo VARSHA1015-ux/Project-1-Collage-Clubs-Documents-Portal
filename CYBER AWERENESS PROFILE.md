@@ -2,6 +2,9 @@
 
 > **Learn • Secure • Protect**
 
+<img width="1661" height="941" alt="image" src="https://github.com/user-attachments/assets/c700f8ad-73ee-4bde-a5e5-cc0b9ecbeed4" />
+
+
 ---
 
 ## 📌 About the Club
