@@ -1,12 +1,16 @@
 # 🛡️CYBER AWARENESS CLUB <b>
 
-## Welcome to the * Cyber awarness
+## Welcome to the ** Cyber awarness  club**
 ## About the club <b>
 #### 💠Student community focused on cybersecurity awareness and practical skills.
 #### 💠Covers online safety, ethical hacking network security, and data protection.
 ## Vision <b>
 #### 💠Build skilled and responsible students who can prevent and respond to cyber threats.
 ## Mission <b>
+
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/4eb7a28b-66bf-4679-88e5-77d022e9581a" />
+
+
 #### 💠Create cybersecurity awereness.
 #### 💠Develop practical skills.
 #### 💠Promote ethical hacking.
