@@ -1,11 +1,18 @@
 # 🛡️CYBER AWARENESS CLUB <b>
 
-## Welcome to the ** Cyber awarness  club**
+## Welcome to the ** Cyber awarness  club**<br>
+
 ## About the club <b>
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/56a317af-e4e6-4196-a67e-d041661cf624" />
+
+
 #### 💠Student community focused on cybersecurity awareness and practical skills.
 #### 💠Covers online safety, ethical hacking network security, and data protection.
+
 ## Vision <b>
 #### 💠Build skilled and responsible students who can prevent and respond to cyber threats.
+
 ## Mission <b>
 
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/4eb7a28b-66bf-4679-88e5-77d022e9581a" />
@@ -16,7 +23,9 @@
 #### 💠Promote ethical hacking.
 #### 💠Conduct workshops, seminars, quizzes, and competitions.
 #### 💠Encourage teamwork and continues learning.
+
 ## Main Activities <b>
+
 #### 💠🔐 Cybersecurity awareness programs.
 #### 💠💻Ethical hacking workshops.
 #### 💠🏆CTF competitions
@@ -30,13 +39,20 @@
 #### 💠🎤Guest lectures and seminars.
 #### 💠🌐Network security domonstrations.
 #### 💠🛡️Cyber safety campaigns.
+
 ## Objectives <b>
+
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/5421dff6-8012-4b04-9edf-eeb510331d01" />
+
+
 #### 💠Understand cybersecutiry.
 #### 💠Learn safe use of technology.
 #### 💠Gain hands-on experience.
 #### 💠Explore cybersecurity careers.
 #### 💠Learn about phishing, malware, cybercrime and data privacy.
+
 ## Expected Outcomes <b>
+
 #### 💠Cybersecurity knowledge
 #### 💠Practical skills.
 #### 💠Critical thinking
