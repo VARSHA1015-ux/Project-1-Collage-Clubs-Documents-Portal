@@ -43,10 +43,6 @@
             color: inherit;
         }
 
-        /* =========================
-           BACKGROUND
-        ========================= */
-
         body::before {
             content: "";
             position: fixed;
@@ -72,10 +68,6 @@
             pointer-events: none;
             z-index: -1;
         }
-
-        /* =========================
-           NAVBAR
-        ========================= */
 
         .navbar {
             position: fixed;
@@ -165,10 +157,6 @@
             cursor: pointer;
         }
 
-        /* =========================
-           GENERAL
-        ========================= */
-
         section {
             padding: 100px 8%;
             scroll-margin-top: 80px;
@@ -194,10 +182,6 @@
             line-height: 1.8;
             max-width: 750px;
         }
-
-        /* =========================
-           HERO
-        ========================= */
 
         .hero {
             min-height: 100vh;
@@ -297,10 +281,6 @@
             transform: translateY(-3px);
         }
 
-        /* =========================
-           CYBER SHIELD
-        ========================= */
-
         .shield-area {
             height: 550px;
             display: grid;
@@ -374,10 +354,6 @@
             100% { transform: translateY(130px); opacity: 0; }
         }
 
-        /* =========================
-           STATS
-        ========================= */
-
         .stats {
             padding-top: 30px;
             padding-bottom: 80px;
@@ -410,10 +386,6 @@
             color: var(--muted);
             font-size: 13px;
         }
-
-        /* =========================
-           ABOUT
-        ========================= */
 
         .about-grid {
             display: grid;
@@ -496,10 +468,6 @@
             font-size: 13px;
         }
 
-        /* =========================
-           VISION / MISSION
-        ========================= */
-
         .vm-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -524,10 +492,6 @@
             color: var(--muted);
             line-height: 1.8;
         }
-
-        /* =========================
-           VALUES
-        ========================= */
 
         .value-grid,
         .activity-grid,
@@ -584,10 +548,6 @@
             line-height: 1.7;
         }
 
-        /* =========================
-           ACTIVITIES
-        ========================= */
-
         .activity-card {
             position: relative;
             overflow: hidden;
@@ -610,10 +570,6 @@
             font-weight: bold;
             cursor: pointer;
         }
-
-        /* =========================
-           WHY JOIN
-        ========================= */
 
         .join-grid {
             display: grid;
@@ -662,10 +618,6 @@
             color: var(--cyan);
         }
 
-        /* =========================
-           EXPECTED OUTCOMES
-        ========================= */
-
         .outcome-grid {
             grid-template-columns: repeat(5,1fr);
         }
@@ -677,10 +629,6 @@
         .outcome-card .card-icon {
             font-size: 25px;
         }
-
-        /* =========================
-           IMPACT
-        ========================= */
 
         .impact-box {
             margin-top: 45px;
@@ -710,10 +658,6 @@
             color: var(--muted);
             font-size: 13px;
         }
-
-        /* =========================
-           EVENT
-        ========================= */
 
         .event-card {
             margin-top: 45px;
@@ -762,10 +706,6 @@
             font-size: 12px;
         }
 
-        /* =========================
-           DOCUMENT VAULT
-        ========================= */
-
         .document-grid {
             display: grid;
             grid-template-columns: repeat(4,1fr);
@@ -808,10 +748,6 @@
             font-weight: bold;
         }
 
-        /* =========================
-           LEADERSHIP
-        ========================= */
-
         .leadership-grid {
             grid-template-columns: repeat(4,1fr);
         }
@@ -841,10 +777,6 @@
             font-size: 12px !important;
             margin-bottom: 12px;
         }
-
-        /* =========================
-           CONNECT
-        ========================= */
 
         .connect {
             background: #070916;
@@ -883,10 +815,6 @@
             color: var(--cyan);
         }
 
-        /* =========================
-           LEGAL
-        ========================= */
-
         .legal-box {
             margin-top: 30px;
             padding: 22px;
@@ -896,10 +824,6 @@
             line-height: 1.7;
             font-size: 13px;
         }
-
-        /* =========================
-           FINAL SECTION
-        ========================= */
 
         .final-section {
             min-height: 80vh;
@@ -1015,10 +939,6 @@
             color: var(--green);
         }
 
-        /* =========================
-           MODAL
-        ========================= */
-
         .modal {
             display: none;
             position: fixed;
@@ -1087,10 +1007,6 @@
             font-size: 25px;
             cursor: pointer;
         }
-
-        /* =========================
-           RESPONSIVE
-        ========================= */
 
         @media(max-width: 1000px) {
 
@@ -1246,171 +1162,10 @@
                 flex-direction: column;
             }
         }
-    
-        /* =========================
-           PROFESSIONAL POLISH
-        ========================= */
-
-        ::selection {
-            background: rgba(0,234,255,.25);
-            color: #ffffff;
-        }
-
-        body {
-            background:
-                radial-gradient(circle at 15% 15%, rgba(0,234,255,.055), transparent 28%),
-                radial-gradient(circle at 85% 30%, rgba(139,92,246,.05), transparent 30%),
-                var(--dark);
-        }
-
-        .navbar {
-            box-shadow: 0 8px 35px rgba(0,0,0,.18);
-        }
-
-        .logo {
-            text-shadow: 0 0 18px rgba(0,234,255,.18);
-        }
-
-        .hero-content,
-        .about-content,
-        .event-content {
-            animation: contentReveal .8s ease both;
-        }
-
-        .hero-label {
-            box-shadow: inset 0 0 18px rgba(0,234,255,.035);
-        }
-
-        .activity-card,
-        .value-card,
-        .outcome-card,
-        .document-card,
-        .leader-card,
-        .connect-card,
-        .closing-card,
-        .impact-item,
-        .stat {
-            box-shadow: 0 10px 35px rgba(0,0,0,.16);
-            backdrop-filter: blur(8px);
-        }
-
-        .activity-card:hover,
-        .document-card:hover,
-        .leader-card:hover,
-        .connect-card:hover,
-        .value-card:hover {
-            box-shadow:
-                0 18px 45px rgba(0,0,0,.28),
-                0 0 28px rgba(0,234,255,.07);
-        }
-
-        .document-card a {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            padding: 9px 12px;
-            border: 1px solid rgba(0,234,255,.2);
-            border-radius: 7px;
-            background: rgba(0,234,255,.035);
-            transition: .3s;
-        }
-
-        .document-card a:hover {
-            background: rgba(0,234,255,.1);
-            border-color: rgba(0,234,255,.55);
-            transform: translateX(3px);
-        }
-
-        .btn {
-            box-shadow: 0 8px 25px rgba(0,0,0,.18);
-        }
-
-        .terminal-box {
-            position: relative;
-            overflow: hidden;
-        }
-
-        .terminal-box::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            pointer-events: none;
-            background: linear-gradient(
-                120deg,
-                transparent,
-                rgba(0,234,255,.035),
-                transparent
-            );
-            transform: translateX(-100%);
-            animation: terminalSweep 5s ease-in-out infinite;
-        }
-
-        .event-card {
-            box-shadow: 0 20px 60px rgba(0,0,0,.2);
-        }
-
-        .event-image {
-            transition: transform .6s ease;
-        }
-
-        .event-card:hover .event-image {
-            transform: scale(1.025);
-        }
-
-        .modal-box {
-            max-height: 88vh;
-            overflow-y: auto;
-        }
-
-        .modal-box::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .modal-box::-webkit-scrollbar-thumb {
-            background: rgba(0,234,255,.35);
-            border-radius: 20px;
-        }
-
-        @keyframes contentReveal {
-            from {
-                opacity: 0;
-                transform: translateY(18px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes terminalSweep {
-            0%, 55% {
-                transform: translateX(-100%);
-            }
-            75%, 100% {
-                transform: translateX(100%);
-            }
-        }
-
-        @media(max-width:700px) {
-            .hero-buttons .btn {
-                width: 100%;
-                text-align: center;
-            }
-
-            .document-card a {
-                width: 100%;
-                justify-content: center;
-            }
-        }
-
     </style>
 </head>
 
 <body>
-
-<!-- =========================
-     NAVBAR
-========================= -->
 
 <header class="navbar" id="navbar">
 
@@ -1432,11 +1187,6 @@
     </ul>
 
 </header>
-
-
-<!-- =========================
-     HERO / HOME
-========================= -->
 
 <section class="hero" id="home">
 
@@ -1471,13 +1221,11 @@
 
     </div>
 
-
-    <!-- CYBER SHIELD -->
-
     <div class="shield-area">
 
         <div class="shield-ring ring1"></div>
         <div class="shield-ring ring2"></div>
+
         <svg class="shield-svg"
              viewBox="0 0 300 350"
              xmlns="http://www.w3.org/2000/svg">
@@ -1506,8 +1254,6 @@
                 </filter>
             </defs>
 
-            <!-- Shield -->
-
             <path d="
                 M150 15
                 L265 55
@@ -1522,8 +1268,6 @@
                 filter="url(#glow)"
             />
 
-            <!-- Inner Shield -->
-
             <path d="
                 M150 45
                 L235 75
@@ -1537,15 +1281,12 @@
                 stroke-width="2"
             />
 
-            <!-- Lock -->
-
             <rect x="110"
                   y="150"
                   width="80"
                   height="65"
                   rx="10"
                   fill="none"
-                  stroke="#00eaff"
                   stroke-width="5"/>
 
             <path d="
@@ -2248,7 +1989,7 @@
 
             <p>Annual activities and performance records.</p>
 
-            <a href="ANNUAL_REPORTS.pdf" target="_blank">
+            <a href="ANNUAL%20REPORTS.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2263,7 +2004,7 @@
 
             <p>Club budget and financial information.</p>
 
-            <a href="BUDGET_SUMMARY.pdf" target="_blank">
+            <a href="BUDGET%20SUMMARY.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2278,7 +2019,7 @@
 
             <p>Policies and operational guidelines.</p>
 
-            <a href="BUSSINESS_POLICIES.pdf" target="_blank">
+            <a href="BUSSINESS%20POLICIES.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2293,7 +2034,7 @@
 
             <p>Certificate records and achievements.</p>
 
-            <a href="CERTIFICATES.pdf" target="_blank">
+            <a href="CERTIFICATES.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2308,7 +2049,7 @@
 
             <p>Reports of club events and activities.</p>
 
-            <a href="EVENTS_REPORTS.pdf" target="_blank">
+            <a href="EVENTS%20REPORTS.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2323,7 +2064,7 @@
 
             <p>Records of club meetings and discussions.</p>
 
-            <a href="MEETING_MINUTES.pdf" target="_blank">
+            <a href="MEETING%20MINUTES.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2338,7 +2079,7 @@
 
             <p>Official club information and details.</p>
 
-            <a href="CYBER_AWARENESS_CLUB.pdf" target="_blank">
+            <a href="CYBER%20AWARENESS%20CLUB.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2353,7 +2094,7 @@
 
             <p>Cyber Awareness Club profile.</p>
 
-            <a href="CYBER_AWARENESS_PROFILE.pdf" target="_blank">
+            <a href="CYBER%20AWARENESS%20PROFILE.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2368,7 +2109,7 @@
 
             <p>Workshop details and cybersecurity learning activities.</p>
 
-            <a href="CYBER_WORKSHOPS.pdf" target="_blank">
+            <a href="CYBER_WORKSHOPS.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2383,7 +2124,7 @@
 
             <p>Cyber awareness campaigns and digital safety activities.</p>
 
-            <a href="AWARENESS_CAMPAIGNS.pdf" target="_blank">
+            <a href="AWARENESS_CAMPAIGNS.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2398,7 +2139,7 @@
 
             <p>Student cybersecurity projects and technical work.</p>
 
-            <a href="STUDENT_PROJECTS.pdf" target="_blank">
+            <a href="STUDENT_PROJECTS.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2413,7 +2154,7 @@
 
             <p>Technical events, symposiums and related activities.</p>
 
-            <a href="TECHNICAL_EVENTS.pdf" target="_blank">
+            <a href="TECHNICAL_EVENTS.md" target="_blank">
                 OPEN DOCUMENT →
             </a>
 
@@ -2935,31 +2676,9 @@
 
     });
 
-
-        const revealObserver = new IntersectionObserver(function(entries) {
-            entries.forEach(function(entry) {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = "1";
-                    entry.target.style.transform = "translateY(0)";
-                    revealObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.12 });
-
-        document.querySelectorAll(
-            ".activity-card, .value-card, .outcome-card, .document-card, .leader-card, .connect-card, .closing-card"
-        ).forEach(function(card) {
-            card.style.opacity = "0";
-            card.style.transform = "translateY(18px)";
-            card.style.transition = "opacity .6s ease, transform .6s ease";
-
-            revealObserver.observe(card);
-        });
-
-    </script>
+</script>
 
 </body>
-</html>
 
 
 
@@ -2972,8 +2691,5 @@
 
 
 
-
-
-
-
-        
+                
+                  stroke="#00eaff"
